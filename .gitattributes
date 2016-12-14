@@ -3,3 +3,20 @@
 
 # Files that will always have CRLF line endings on checkout.
 *.cmd text eol=crlf
+
+*.doc   diff=astextplain
+*.DOC	diff=astextplain
+*.docx	diff=astextplain
+*.DOCX	diff=astextplain
+*.PPTX	diff=astextplain
+*.pptx	diff=astextplain
+*.dot	diff=astextplain
+*.DOT	diff=astextplain
+*.pdf	diff=astextplain
+*.PDF	diff=astextplain
+*.rtf	diff=astextplain
+*.RTF	diff=astextplain
+
+*.jpg binary
+*.png binary
+*.gif binary
